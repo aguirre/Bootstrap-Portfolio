@@ -1,0 +1,184 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url("../../assets/images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	margin-bottom: 120px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.headers {
+	font-family: 'Roboto Slab', serif;
+	color: #0b2b3b;
+}
+
+.navbar-brand {
+	font-family: 'Roboto Slab', serif;
+	background-color: #0b2b3b;
+	color: #fff;
+	font-size: 30px;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.nav-link {
+	color: #777;
+	font-size: 18px;
+}
+
+li {
+	padding: 12px;
+	position: relative;
+}
+
+.navBorder {
+	height: 20px;
+	border-right: 1px solid #131313;
+	position: absolute;
+	right: 0;
+	top: 22px;
+}
+
+#photo {
+	width: 100%;
+	max-width: 260px;
+	margin-right: 14px;
+}
+
+p {
+	line-height: 35px;
+	font-size: 18px;
+	color: #333;
+}
+
+.footer {
+    background: #333;
+    border-top: 8px solid #0b2b3b;
+    padding: 30px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+}
+
+.h2Line {
+	height: 3px;
+	color: #ddd;
+	background-color: #ddd;
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%
+}
+
+.mainContent {
+	background-color: #fff;
+	margin-top: 40px;
+	padding: 40px;
+}
+
+.icons {
+	padding: 2px;
+	height: 66px;
+	width: 66px;
+	text-align: center;
+}
+
+.sidebar {
+	background-color: #fff;
+	margin-top: 40px;
+	text-align: center;
+	padding: 40px 30px 30px 30px;
+}
+
+.h3Line {
+	color: #ddd;
+	border: 0;
+	height: 2px;
+	background-color: #ddd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 200px;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.contactContainer {
+	background-color: #fff;
+	margin-top: 40px;
+	padding: 40px;
+}
+
+label {
+	color: #0b2b3b;
+}
+
+button {
+	background-color: #0b2b3b;
+	color: #fff;
+	width: 100%;
+	font-size: 16px;
+	max-width: 100px;
+}
+
+.portfolioContent {
+	background-color: #fff;
+	margin-top: 40px;
+	padding: 40px;
+}
+
+.portfolioItems img {
+	width: 100%;
+	max-width: 265px;
+	height: 200px;
+	min-width: 200px;
+}
+
+.banner {
+	background-color: #0b2b3b;
+	color: #fff;
+	height: 25px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2px;
+	padding: 30px;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	max-width: 265px;
+	width: 100%;
+	min-width: 200px;
+}
+
+.portfolioItems {
+	position: relative;
+	margin-bottom: 40px;
+}
